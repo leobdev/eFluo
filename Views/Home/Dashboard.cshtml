@@ -1,0 +1,937 @@
+﻿@model eFluo.Models.ViewModels.DashboardViewModel
+@using Microsoft.AspNetCore.Identity
+@using eFluo.Models.Enums;
+@using eFluo.Services.Interfaces;
+
+@inject UserManager<PSUser> UserManager
+@inject IPSRolesService RolesService
+@inject IPSProjectService ProjectService
+@inject IPSBadgeService StatusService
+
+@{
+    ViewData["Title"] = "Dashboard";
+
+    PSUser psUser = await UserManager.GetUserAsync(User);
+
+}
+
+<!-- Styles -->
+<style>
+    .amDark {
+        background-color: #30303d;
+        color: #fff;
+    }
+
+    #chartdiv {
+        width: 100%;
+        height: 500px;
+    }
+</style>
+
+
+
+<div class="container-fluid">
+
+    <h1>Dashboard</h1>
+
+    <!-- Info Pills -->
+    <div class="row">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 layout-spacing">
+            <div class="widget widget-account-invoice-two">
+                <div class="widget-content">
+                    <div class="account-box">
+                        <div class="info">
+                            <div class="inv-title">
+                                <h5 class="">Active Projects</h5>
+                            </div>
+                            <div class="inv-balance-info">
+
+                                <p class="inv-balance">@Model.Projects.Where(p => p.StartDate < DateTime.Now && p.EndDate > DateTime.Now).Count()</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 layout-spacing">
+            <div class="widget widget-account-invoice-two">
+                <div class="widget-content">
+                    <div class="account-box">
+                        <div class="info">
+                            <div class="inv-title">
+                                <h5 class="">Total Tickets</h5>
+                            </div>
+                            <div class="inv-balance-info">
+
+                                <p class="inv-balance">@Model.Tickets.Count()</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 layout-spacing">
+            <div class="widget widget-account-invoice-two">
+                <div class="widget-content">
+                    <div class="account-box">
+                        <div class="info">
+                            <div class="inv-title">
+                                <h5 class="">Unassigned Tickets</h5>
+                            </div>
+                            <div class="inv-balance-info">
+
+                                <p class="inv-balance">@Model.Tickets.Where(t => string.IsNullOrEmpty(t.DeveloperUserId)).Count()</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 layout-spacing">
+            <div class="widget widget-account-invoice-two">
+                <div class="widget-content">
+                    <div class="account-box">
+                        <div class="info">
+                            <div class="inv-title">
+                                <h5 class="">Total Data</h5>
+                            </div>
+                            <div class="inv-balance-info">
+
+                                <p class="inv-balance">
+                                    @(
+                                        Model.Projects.Count()
+                                        + Model.Tickets.Count()
+                                        + Model.Members.Count()
+                                        )
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!--Users stats-->
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 layout-spacing">
+            <div class="widget widget-table-one">
+                <div class="widget-heading">
+                    <h5 class="">User Stats</h5>
+                </div>
+
+                <div class="widget-content">
+
+                    <div class="transactions-list t-info">
+                        <div class="t-item">
+                            <div class="t-company-name">
+                                <div class="t-icon">
+                                    <div class="avatar avatar-xl">
+                                        <span class="avatar-title">TU</span>
+                                    </div>
+                                </div>
+                                <div class="t-name">
+                                    <h4>Total Users</h4>
+
+                                </div>
+                            </div>
+                            <div class="t-rate rate-inc">
+                                <p><span>@Model.Members.Count</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="transactions-list">
+                        <div class="t-item">
+                            <div class="t-company-name">
+                                <div class="t-icon">
+                                    <div class="avatar avatar-xl">
+                                        <span class="avatar-title">TD</span>
+                                    </div>
+                                </div>
+                                <div class="t-name">
+                                    <h4>Tickets in Development</h4>
+
+                                </div>
+
+                            </div>
+                            <div class="t-rate rate-inc">
+                                <p><span>@Model.Tickets.Where(t => t.TicketStatus.Name == nameof(PSTicketStatus.Development)).Count()</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="transactions-list t-secondary">
+                        <div class="t-item">
+                            <div class="t-company-name">
+                                <div class="t-icon">
+                                    <div class="avatar avatar-xl">
+                                        <span class="avatar-title">TD</span>
+                                    </div>
+                                </div>
+                                <div class="t-name">
+                                    <h4>Total Developers</h4>
+
+                                </div>
+
+                            </div>
+                            <div class="t-rate rate-inc">
+                                <p><span>@((await RolesService.GetUsersInRoleAsync(nameof(Roles.Developer), psUser.CompanyId)).Count)</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <!--Company Data-->
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 layout-spacing">
+            <div class="widget widget-three">
+                <div class="widget-heading">
+                    <h5 class="">Company Data</h5>
+                    <p>@Model.Company.Name</p>
+                </div>
+                <div class="widget-content">
+
+                    <div class="order-summary">
+                        <div class="summary-list">
+                            <div class="w-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                            </div>
+                            <div class="w-summary-details">
+                                <div class="w-summary-info">
+                                    <h6>Members</h6>
+                                    <p class="summary-count">@Model.Members.Count</p>
+                                </div>
+                                <div class="w-summary-stats">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="summary-list">
+                            <div class="w-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-credit-card"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
+                            </div>
+                            <div class="w-summary-details">
+                                <div class="w-summary-info">
+                                    <h6>Projects</h6>
+                                    <p class="summary-count">@Model.Members.Count</p>
+                                </div>
+                                <div class="w-summary-stats">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="summary-list">
+                            <div class="w-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+                            </div>
+                            <div class="w-summary-details">
+                                <div class="w-summary-info">
+                                    <h6>Tickets</h6>
+                                    <p class="summary-count">@Model.Tickets.Count</p>
+                                </div>
+                                <div class="w-summary-stats">
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <!--Priority Projects-->
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 layout-spacing">
+            <div class="widget widget-chart-two">
+                <div class="widget-heading">
+                    <h5 class="">Projects Priority (%) </h5>
+                </div>
+                <div class="widget-content">
+                    <div id="donut" class=""></div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!--Tickets by Status-->
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 layout-spacing">
+            <div class="widget widget-chart-two">
+                <div class="widget-heading">
+                    <h5>Projects by Priority</h5>
+                </div>
+
+                <div class="widget-content">
+                    <div id="pie"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing">
+            <div class="widget widget-chart-one">
+                <div class="widget-heading">
+                    <h5 class="">Tickets/Devs Ratio per Project</h5>
+                </div>
+
+                <div class="widget-content">
+                    <div id="chartdiv"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <div class="mt-5 ">
+        <div class="row" id="cancel-row">
+
+            <!--Members Data Table-->
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 layout-spacing">
+                <div class="statbox widget box box-shadow">
+                    <h5 class="">Members</h5>
+                    <br />
+                    <div class="widget-content widget-content-area">
+                        <table id="zero-config" class="table dt-table-hover" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th class="text-center">Image</th>
+                                    <th>Member Name</th>
+
+                                    <th class="text-center">Title</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (PSUser member in Model.Members)
+                                {
+
+                                    <tr>
+                                        <td class="text-center">
+                                            @if (member.AvatarFileData != null)
+                                            {
+                                                <span><img src="data:image/*;base64,@(Convert.ToBase64String(member.AvatarFileData))" class="img-fluid rounded-circle" alt="avatar"></span>
+                                            }
+
+                                            <span><img style="width:40px;height:40px" src="/img/avatardefault_92824.png" class="img-fluid rounded-circle" alt="avatar"></span>
+                                        </td>
+                                        <td>
+                                            <a asp-area="Identity" asp-action="Account/Manage/Index" asp-route-id="">
+
+                                                @member.FullName
+                                            </a>
+                                        </td>
+
+                                        <td class="text-center"><span class="shadow-none badge badge-primary">@await RolesService.GetUserMainRoleAsync(member)</span></td>
+                                        <td class="text-center"><a asp-action="" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg></a></td>
+
+                                    </tr>
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Projects Data Table-->
+            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 layout-spacing">
+                <div class="statbox widget box box-shadow">
+                    <h5 class="">Projects</h5>
+                    <br />
+                    <div class="widget-content widget-content-area">
+                        <table class="multi-table table table-hover" style="width:100%">
+                            <thead>
+                                <tr>
+
+                                    <th>Name</th>
+                                    <th>Start</th>
+                                    <th>End</th>
+                                    <th class="text-center">Team</th>
+                                    <th class="text-center">Tickets</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (Project project in Model.Projects)
+                                {
+
+                                    <tr>
+
+
+                                        <td>
+                                            <a asp-action="Details" asp-controller="Projects" asp-route-id="@project.Id">
+
+                                                <div>
+                                                    <h6>
+                                                        <strong>
+                                                            @project.Name
+                                                        </strong>
+                                                    </h6>
+                                                </div>
+                                                <div>
+
+                                                    <p>
+                                                        Project Manajer: @((await ProjectService.GetProjectManagerAsync(project.Id))?.FullName)
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </td>
+                                        <td>@project.StartDate.ToString("MM/dd/yyyy")</td>
+                                        <td>@project.EndDate.ToString("MM/dd/yyyy")</td>
+                                        <td>@*Team Member avatars Here*@</td>
+                                        <td class="text-center">@project.Tickets.Count</td>
+
+                                    </tr>
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing">
+                <div class="statbox widget box box-shadow">
+                    <h5 class="">Tickets</h5>
+                    <br />
+                    <div class="widget-content widget-content-area">
+                        <table id="style-3" class="table style-3  table-hover">
+                            <thead class="">
+                                <tr>
+
+                                    <th>Title</th>
+                                    <th class="text-center">Developer</th>
+                                    <th class="text-center">Status</th>
+                                    <th class="text-center">Priority</th>
+                                    <th>Date</th>
+                                    <th class="text-center dt-no-sorting">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                @foreach (var ticket in Model.Tickets.OrderByDescending(d => d.Created))
+                                {
+                                    <tr>
+                                        <td><a asp-action="Details" asp-controller="Tickets" asp-route-id="@ticket.Id" style="color:black"><strong>@ticket.Title</strong></a> </td>
+                                        <td class="text-center">
+                                            @if (ticket.DeveloperUserId != null)
+                                            {
+                                                @ticket.DeveloperUser?.FullName
+                                            }
+                                            else
+                                            {
+                                                <a class="btn btn-outline-primary bs-tooltip" data-toggle="tooltip" data-placement="right" title="click to assign" asp-action="AssignDeveloper" asp-controller="Tickets" asp-route-id="@ticket.Id">Unassigned</a>
+
+                                            }
+                                        </td>
+                                        @if (ticket.TicketStatus.Name == "New")
+                                        {
+                                            <td class="text-center"><button class="btn btn-outline-success btn-sm">@ticket.TicketStatus.Name </button></td>
+
+                                        }
+                                        else
+                                        {
+                                            <td class="text-center"><span class="btn btn-outline-primary btn-rounded btn-sm">@ticket.TicketStatus.Name </span></td>
+                                        }
+                                        <td class="text-center"><span class="badge @StatusService.GetPriorityBadge(ticket.TicketPriority.Name)">@ticket.TicketPriority.Name </span></td>
+                                        <td><span style="font-size:small">@ticket.Created.ToString("MM-dd-yyyy")</span></td>
+                                        <td class="text-center">
+                                            <ul class="table-controls">
+                                                <li><a asp-action="Edit" asp-controller="Tickets" class="bs-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-2 p-1 br-6 mb-1"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg></a></li>
+                                                <li><a asp-action="Details" asp-controller="Tickets" asp-route-id="@ticket.Id" class="bs-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Details"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg></a></li>
+                                                <li><a asp-action="Archive" asp-controller="Tickets" asp-route-id="@ticket.Id" class="bs-tooltip" data-toggle="tooltip" data-placement="top" title="Archive"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-archive"><polyline points="21 8 21 21 3 21 3 8" /><rect x="1" y="3" width="22" height="5" /><line x1="10" y1="12" x2="14" y2="12" /></svg></a></li>
+
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+                <div class="card-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<hr />
+
+
+
+@section scripts{
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+
+    <!-- BEGIN GLOBAL MANDATORY SCRIPTS -->
+    <script src="/assets/js/libs/jquery-3.1.1.min.js"></script>
+    <script src="/bootstrap/js/popper.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="/assets/js/app.js"></script>
+    <script>
+        $(document).ready(function () {
+            App.init();
+        });
+    </script>
+    <script src="/assets/js/custom.js"></script>
+    <!-- END GLOBAL MANDATORY SCRIPTS -->
+    <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
+    <script src="/plugins/apex/apexcharts.min.js"></script>
+    <scrip src="/"></scrip>
+    <!-- END GLOBAL MANDATORY SCRIPTS -->
+
+    <scripts src="/assets/js/widgets/modules-widgets.js"></scripts>
+    <script src="/plugins/table/datatable/datatables.js"></script>
+
+
+    <!--Data Tables-->
+
+    <script>
+        $('#zero-config').DataTable({
+            "dom": "<'dt--top-section'<'row'<'col-12 col-sm-6 d-flex justify-content-sm-start justify-content-center'l><'col-12 col-sm-6 d-flex justify-content-sm-end justify-content-center mt-sm-0 mt-3'f>>>" +
+                "<'table-responsive'tr>" +
+                "<'dt--bottom-section d-sm-flex justify-content-sm-between text-center'<'dt--pages-count  mb-sm-0 mb-3'i><'dt--pagination'p>>",
+            "oLanguage": {
+                "oPaginate": { "sPrevious": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>', "sNext": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>' },
+                "sInfo": "Showing page _PAGE_ of _PAGES_",
+                "sSearch": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>',
+                "sSearchPlaceholder": "Search...",
+                "sLengthMenu": "Results :  _MENU_",
+            },
+            "stripeClasses": [],
+            "lengthMenu": [10, 20, 50],
+            "pageLength": 8
+        });
+
+
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('table.multi-table').DataTable({
+                "dom": "<'dt--top-section'<'row'<'col-12 col-sm-6 d-flex justify-content-sm-start justify-content-center'l><'col-12 col-sm-6 d-flex justify-content-sm-end justify-content-center mt-sm-0 mt-3'f>>>" +
+                    "<'table-responsive'tr>" +
+                    "<'dt--bottom-section d-sm-flex justify-content-sm-between text-center'<'dt--pages-count  mb-sm-0 mb-3'i><'dt--pagination'p>>",
+                "oLanguage": {
+                    "oPaginate": {
+                        "sPrevious": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>',
+                        "sNext": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>'
+                    },
+                    "sInfo": "Showing page _PAGE_ of _PAGES_",
+                    "sSearch": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>',
+                    "sSearchPlaceholder": "Search...",
+                    "sLengthMenu": "Results :  _MENU_",
+                },
+                "stripeClasses": [],
+                "lengthMenu": [5, 10, 20, 50],
+                "pageLength": 6,
+                drawCallback: function () {
+                    $('.t-dot').tooltip({
+                        template: '<div class="tooltip status" role="tooltip"><div class="arrow"></div><div class="tooltip-inner"></div></div>'
+                    })
+                    $('.dataTables_wrapper table').removeClass('table-striped');
+                }
+            });
+        });
+    </script>
+
+    <script>
+        $('#style-3').DataTable({
+            "dom": "<'dt--top-section'<'row'<'col-12 col-sm-6 d-flex justify-content-sm-start justify-content-center'l><'col-12 col-sm-6 d-flex justify-content-sm-end justify-content-center mt-sm-0 mt-3'f>>>" +
+                "<'table-responsive'tr>" +
+                "<'dt--bottom-section d-sm-flex justify-content-sm-between text-center'<'dt--pages-count  mb-sm-0 mb-3'i><'dt--pagination'p>>",
+            "oLanguage": {
+                "oPaginate": { "sPrevious": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>', "sNext": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>' },
+                "sInfo": "Showing page _PAGE_ of _PAGES_",
+                "sSearch": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>',
+                "sSearchPlaceholder": "Search...",
+                "sLengthMenu": "Results :  _MENU_",
+            },
+            "stripeClasses": [],
+            "lengthMenu": [5, 10, 20, 50],
+            "pageLength": 10
+        });
+
+    </script>
+
+
+    <!--Apex Charts/Donut/Sales by Category-->
+
+
+
+    <script>
+
+    </script>
+
+    <script>
+
+        $.ajax({
+            type: "POST",
+            url: "/Home/DonutMethod",
+            data: '{}',
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (result) {
+
+
+                //var options = {
+                //    series: [44, 55, 41, 17, 15],
+                //    chart: {
+                //        type: 'donut',
+                //    },
+                //    responsive: [{
+                //        breakpoint: 480,
+                //        options: {
+                //            chart: {
+                //                width: 150
+                //            },
+                //            legend: {
+                //                position: 'bottom'
+                //            }
+                //        }
+                //    }]
+                //};
+
+                //var chart = new ApexCharts(document.querySelector("#chart"), options);
+                //chart.render();
+
+
+                //Donut
+                var donutChartCanvas = $('#donutChart').get(0).getContext('2d')
+                var donutData = result
+
+                var donutOptions = {
+                    maintainAspectRatio: false,
+                    responsive: true,
+                }
+
+                var abc = new ApexCharts(
+                    document.querySelector("#donutChart"),
+                    new Chart(donutChartCanvas, {
+                        type: 'donut',
+                        data: donutData,
+                        options: donutOptions
+                                                                                )
+
+                                                                                abc.render();
+
+            },
+
+            failure: function (result) {
+                alert(result.d);
+            },
+            error: function (result) {
+                alert(result.d);
+            }
+        });
+
+    </script>
+
+
+    <!--Google Charts-->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+    <script type="text/javascript">
+        google.load("visualization", "1", { packages: ["corechart"] });
+        google.setOnLoadCallback(drawChart);
+        function drawChart() {
+            $.ajax({
+                type: "POST",
+                url: "/Home/GglProjectPriority",
+                data: '{}',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (result) {
+                    var data = google.visualization.arrayToDataTable(result);
+
+                    //3D Pie
+                    var options = {
+                        title: 'Project Priority',
+                        is3D: false,
+                        colors: ['#25d5e4', '#1abc9c', '#e2a03f', '#e95f2b'],
+                        chartArea: { left: 0, bottom: 15, width: '100%', height: '100%' },
+                        legend: { position: 'bottom' }
+
+                    };
+
+                    var chart = new google.visualization.PieChart($("#pie")[0]);
+                    chart.draw(data, options);
+                },
+                failure: function (result) {
+                    alert(result.d);
+                },
+                error: function (result) {
+                    alert(result.d);
+                }
+            });
+        }
+    </script>
+
+    <script type="text/javascript">
+        google.load("visualization", "1", { packages: ["corechart"] });
+        google.setOnLoadCallback(drawChart);
+        function drawChart() {
+            $.ajax({
+                type: "POST",
+                url: "/Home/GglProjectPriority",
+                data: '{}',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (result) {
+                    var data = google.visualization.arrayToDataTable(result);
+
+                    //Donut
+                    var options = {
+                        title: 'Company Ticket Distribution',
+                        pieHole: 0.3,
+                        chartArea: { left: 0, bottom: 20, width: '100%', height: '100%' },
+                        colors: ['#25d5e4', '#1abc9c', '#e2a03f', '#e95f2b'],
+                        legend: { position: 'bottom' }
+                    };
+                    var chart = new google.visualization.PieChart($("#donut")[0]);
+                    chart.draw(data, options);
+                },
+                failure: function (rresult) {
+                    alert(result.d);
+                },
+                error: function (result) {
+                    alert(result.d);
+                }
+            });
+        }
+    </script>
+
+    @* Morris Donut Chart *@
+    <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+    <script>
+
+        var morrisDonutData = [{
+            label: "Low",
+            value: @Model.Tickets.Where(t=>t.TicketPriority.Name == nameof(PSTicketPriority.Low)).Count()
+                                                                                                                                                                                    }, {
+            label: "Medium",
+            value: @Model.Tickets.Where(t=>t.TicketPriority.Name == nameof(PSTicketPriority.Medium)).Count()
+                                                                                                                                                                                    }, {
+            label: "High",
+            value: @Model.Tickets.Where(t=>t.TicketPriority.Name == nameof(PSTicketPriority.High)).Count()
+                                                                                                                                                                                    }, {
+            label: "Urgent",
+            value: @Model.Tickets.Where(t=>t.TicketPriority.Name == nameof(PSTicketPriority.Urgent)).Count()
+                                                                                                                                                                                    }];
+
+
+        /*
+        Morris: Donut
+        */
+        if ($('#morrisTicketPriority').get(0)) {
+            var donutChart = Morris.Donut({
+                resize: true,
+                element: 'morrisTicketPriority',
+                data: morrisDonutData,
+                colors: ['#0088cc', '#734ba9', '#E36159', '#ff993b']
+            });
+
+            donutChart.options.data.forEach(function (label, i) {
+                var legendItem = $('<span></span>').text(label['label'] + ": " + label['value']).prepend('<span>&nbsp;</span>');
+                legendItem.find('span')
+                    .css('backgroundColor', donutChart.options.colors[i])
+                    .css('width', '20px')
+                    .css('display', 'inline-block')
+                    .css('margin', '10px');
+                $('#legend').append(legendItem)
+            });
+        };
+    </script>
+
+    <!-- *** Begin Chart JS Pie/Donut *** -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>
+    <script>
+
+        var donutChartCanvas = $('#donutChart').get(0).getContext('2d');
+        var donutData = {
+            labels: [
+                '@nameof(PSTicketStatus.Development)',
+                '@nameof(PSTicketStatus.New)',
+                '@nameof(PSTicketStatus.Resolved)',
+                '@nameof(PSTicketStatus.Testing)'
+            ],
+            datasets: [
+                {
+                    data: [
+        @Model.Tickets.Where(t=> t.TicketStatus.Name == nameof(PSTicketStatus.Development)).Count(),
+        @Model.Tickets.Where(t=> t.TicketStatus.Name ==nameof(PSTicketStatus.New)).Count(),
+        @Model.Tickets.Where(t=> t.TicketStatus.Name ==nameof(PSTicketStatus.Resolved)).Count(),
+        @Model.Tickets.Where(t=> t.TicketStatus.Name ==nameof(PSTicketStatus.Testing)).Count()
+                                                                                                                                                                                                ],
+                    backgroundColor: [
+                        'rgba(255, 99, 132)',
+                        'rgba(54, 162, 235)',
+                        'rgba(255, 206, 86)',
+                        'rgba(75, 192, 192)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)'
+                    ]
+                }
+            ]
+        };
+
+        var donutOptions = {
+            maintainAspectRatio: false,
+            responsive: true,
+        };
+
+        new Chart(donutChartCanvas, {
+            type: 'doughnut',
+            data: donutData,
+            options: donutOptions
+        });
+    </script>
+    <!-- *** End Chart JS Donut *** -->
+    <!-- *** Begin AM Charts *** -->
+    <!-- Resources -->
+    <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+
+    <!-- Chart code -->
+    <script>
+        $.ajax({
+            type: "POST",
+            url: "/Home/AmCharts",
+            data: '{}',
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (result) {
+                am4core.ready(function () {
+
+                    // Themes begin
+                    // Themes end
+
+                    // Create chart instance
+                    var chart = am4core.create("chartdiv", am4charts.XYChart);
+
+
+                    // Add data
+                    chart.data = result;
+
+                    // Create axes
+                    var categoryAxis = chart.yAxes.push(new am4charts.CategoryAxis());
+                    categoryAxis.dataFields.category = "project";
+                    categoryAxis.numberFormatter.numberFormat = "#";
+                    categoryAxis.renderer.inversed = true;
+                    categoryAxis.renderer.grid.template.location = 0;
+                    categoryAxis.renderer.cellStartLocation = 0.1;
+                    categoryAxis.renderer.cellEndLocation = 0.9;
+
+                    var valueAxis = chart.xAxes.push(new am4charts.ValueAxis());
+                    valueAxis.renderer.opposite = true;
+
+                    // Create series
+                    function createSeries(field, name) {
+                        var series = chart.series.push(new am4charts.ColumnSeries());
+                        series.dataFields.valueX = field;
+                        series.dataFields.categoryY = "project";
+                        series.name = name;
+                        series.columns.template.tooltipText = "{name}: [bold]{valueX}[/]";
+                        series.columns.template.height = am4core.percent(100);
+                        series.sequencedInterpolation = true;
+
+                        var valueLabel = series.bullets.push(new am4charts.LabelBullet());
+                        valueLabel.label.text = "{valueX}";
+                        valueLabel.label.horizontalCenter = "left";
+                        valueLabel.label.dx = 10;
+                        valueLabel.label.hideOversized = false;
+                        valueLabel.label.truncate = false;
+
+                        var categoryLabel = series.bullets.push(new am4charts.LabelBullet());
+                        categoryLabel.label.text = "{name}";
+                        categoryLabel.label.horizontalCenter = "right";
+                        categoryLabel.label.dx = -10;
+                        categoryLabel.label.fill = am4core.color("#fff");
+                        categoryLabel.label.hideOversized = false;
+                        categoryLabel.label.truncate = false;
+                    }
+
+                    createSeries("tickets", "Tickets");
+                    createSeries("developers", "Devs");
+
+                }); // end am4core.ready()
+
+
+            },
+            failure: function (result) {
+                alert(result.d);
+            },
+            error: function (result) {
+                alert(result.d);
+            }
+        });
+    </script>
+
+    <!-- *** End AM Charts *** -->
+    <!--  Plotly Charts  -->
+    <!-- Load plotly.js into the DOM -->
+    <script src='https://cdn.plot.ly/plotly-2.4.2.min.js'></script>
+    <script>
+        $.ajax({
+            type: "POST",
+            url: "/Home/PlotlyBarChart",
+            data: '{}',
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (result) {
+                var data = result;
+
+                var layout = { barmode: 'group' };
+
+                Plotly.newPlot('plotlyChart', data, layout);
+            },
+            failure: function (result) {
+                alert(result.d);
+            },
+            error: function (result) {
+                alert(result.d);
+            }
+        });
+    </script>
+}

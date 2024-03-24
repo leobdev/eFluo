@@ -1,0 +1,3701 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\eFluo.bundle.scp.css",
+      "PackagePath": "staticwebassets\\eFluo.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\apps\\contacts.css",
+      "PackagePath": "staticwebassets\\assets\\css\\apps\\contacts.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\apps\\invoice-add.css",
+      "PackagePath": "staticwebassets\\assets\\css\\apps\\invoice-add.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\apps\\invoice-edit.css",
+      "PackagePath": "staticwebassets\\assets\\css\\apps\\invoice-edit.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\apps\\invoice-list.css",
+      "PackagePath": "staticwebassets\\assets\\css\\apps\\invoice-list.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\apps\\invoice-preview.css",
+      "PackagePath": "staticwebassets\\assets\\css\\apps\\invoice-preview.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\apps\\mailbox.css",
+      "PackagePath": "staticwebassets\\assets\\css\\apps\\mailbox.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\apps\\mailing-chat.css",
+      "PackagePath": "staticwebassets\\assets\\css\\apps\\mailing-chat.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\apps\\notes.css",
+      "PackagePath": "staticwebassets\\assets\\css\\apps\\notes.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\apps\\scrumboard.css",
+      "PackagePath": "staticwebassets\\assets\\css\\apps\\scrumboard.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\apps\\todolist.css",
+      "PackagePath": "staticwebassets\\assets\\css\\apps\\todolist.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\authentication\\form-1.css",
+      "PackagePath": "staticwebassets\\assets\\css\\authentication\\form-1.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\authentication\\form-2.css",
+      "PackagePath": "staticwebassets\\assets\\css\\authentication\\form-2.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\components\\cards\\card.css",
+      "PackagePath": "staticwebassets\\assets\\css\\components\\cards\\card.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\components\\custom-carousel.css",
+      "PackagePath": "staticwebassets\\assets\\css\\components\\custom-carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\components\\custom-countdown.css",
+      "PackagePath": "staticwebassets\\assets\\css\\components\\custom-countdown.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\components\\custom-counter.css",
+      "PackagePath": "staticwebassets\\assets\\css\\components\\custom-counter.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\components\\custom-list-group.css",
+      "PackagePath": "staticwebassets\\assets\\css\\components\\custom-list-group.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\components\\custom-media_object.css",
+      "PackagePath": "staticwebassets\\assets\\css\\components\\custom-media_object.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\components\\custom-modal.css",
+      "PackagePath": "staticwebassets\\assets\\css\\components\\custom-modal.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\components\\custom-sweetalert.css",
+      "PackagePath": "staticwebassets\\assets\\css\\components\\custom-sweetalert.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\components\\tabs-accordian\\custom-accordions.css",
+      "PackagePath": "staticwebassets\\assets\\css\\components\\tabs-accordian\\custom-accordions.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\components\\tabs-accordian\\custom-tabs.css",
+      "PackagePath": "staticwebassets\\assets\\css\\components\\tabs-accordian\\custom-tabs.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\components\\timeline\\custom-timeline.css",
+      "PackagePath": "staticwebassets\\assets\\css\\components\\timeline\\custom-timeline.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\dashboard\\dash_1.css",
+      "PackagePath": "staticwebassets\\assets\\css\\dashboard\\dash_1.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\dashboard\\dash_2.css",
+      "PackagePath": "staticwebassets\\assets\\css\\dashboard\\dash_2.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\elements\\alert.css",
+      "PackagePath": "staticwebassets\\assets\\css\\elements\\alert.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\elements\\avatar.css",
+      "PackagePath": "staticwebassets\\assets\\css\\elements\\avatar.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\elements\\breadcrumb.css",
+      "PackagePath": "staticwebassets\\assets\\css\\elements\\breadcrumb.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\elements\\color_library.css",
+      "PackagePath": "staticwebassets\\assets\\css\\elements\\color_library.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\elements\\custom-pagination.css",
+      "PackagePath": "staticwebassets\\assets\\css\\elements\\custom-pagination.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\elements\\custom-tree_view.css",
+      "PackagePath": "staticwebassets\\assets\\css\\elements\\custom-tree_view.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\elements\\custom-typography.css",
+      "PackagePath": "staticwebassets\\assets\\css\\elements\\custom-typography.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\elements\\infobox.css",
+      "PackagePath": "staticwebassets\\assets\\css\\elements\\infobox.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\elements\\miscellaneous.css",
+      "PackagePath": "staticwebassets\\assets\\css\\elements\\miscellaneous.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\elements\\popover.css",
+      "PackagePath": "staticwebassets\\assets\\css\\elements\\popover.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\elements\\search.css",
+      "PackagePath": "staticwebassets\\assets\\css\\elements\\search.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\elements\\tooltip.css",
+      "PackagePath": "staticwebassets\\assets\\css\\elements\\tooltip.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\forms\\bootstrap-form.css",
+      "PackagePath": "staticwebassets\\assets\\css\\forms\\bootstrap-form.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\forms\\custom-clipboard.css",
+      "PackagePath": "staticwebassets\\assets\\css\\forms\\custom-clipboard.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\forms\\switches.css",
+      "PackagePath": "staticwebassets\\assets\\css\\forms\\switches.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\forms\\theme-checkbox-radio.css",
+      "PackagePath": "staticwebassets\\assets\\css\\forms\\theme-checkbox-radio.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\loader.css",
+      "PackagePath": "staticwebassets\\assets\\css\\loader.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\pages\\coming-soon\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\pages\\coming-soon\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\pages\\contact_us.css",
+      "PackagePath": "staticwebassets\\assets\\css\\pages\\contact_us.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\pages\\error\\style-400.css",
+      "PackagePath": "staticwebassets\\assets\\css\\pages\\error\\style-400.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\pages\\error\\style-500.css",
+      "PackagePath": "staticwebassets\\assets\\css\\pages\\error\\style-500.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\pages\\error\\style-503.css",
+      "PackagePath": "staticwebassets\\assets\\css\\pages\\error\\style-503.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\pages\\error\\style-maintanence.css",
+      "PackagePath": "staticwebassets\\assets\\css\\pages\\error\\style-maintanence.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\pages\\faq\\faq.css",
+      "PackagePath": "staticwebassets\\assets\\css\\pages\\faq\\faq.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\pages\\faq\\faq2.css",
+      "PackagePath": "staticwebassets\\assets\\css\\pages\\faq\\faq2.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\pages\\helpdesk.css",
+      "PackagePath": "staticwebassets\\assets\\css\\pages\\helpdesk.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\pages\\privacy\\privacy.css",
+      "PackagePath": "staticwebassets\\assets\\css\\pages\\privacy\\privacy.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\plugins.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\scrollspyNav.css",
+      "PackagePath": "staticwebassets\\assets\\css\\scrollspyNav.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\structure.css",
+      "PackagePath": "staticwebassets\\assets\\css\\structure.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\tables\\table-basic.css",
+      "PackagePath": "staticwebassets\\assets\\css\\tables\\table-basic.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\users\\account-setting.css",
+      "PackagePath": "staticwebassets\\assets\\css\\users\\account-setting.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\users\\user-profile.css",
+      "PackagePath": "staticwebassets\\assets\\css\\users\\user-profile.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\css\\widgets\\modules-widgets.css",
+      "PackagePath": "staticwebassets\\assets\\css\\widgets\\modules-widgets.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\120x120.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\120x120.jpg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\1280x857.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1280x857.jpg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\175x115.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\175x115.jpg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\200x200.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\200x200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\350x250.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\350x250.jpg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\400x168.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x168.jpg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\400x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\509x343.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\509x343.jpg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\600x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\600x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\640x426.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\640x426.jpg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\90x90.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\90x90.jpg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\David_Wallace_(The_Office).jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\David_Wallace_(The_Office).jpg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\ab-1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\ab-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\arrow-down.png",
+      "PackagePath": "staticwebassets\\assets\\img\\arrow-down.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\ca.png",
+      "PackagePath": "staticwebassets\\assets\\img\\ca.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\contact-us-map-pin.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\contact-us-map-pin.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\cork-logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cork-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\de.png",
+      "PackagePath": "staticwebassets\\assets\\img\\de.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\faq.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\faq.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\flag-brl.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\flag-brl.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\flag-ca.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\flag-ca.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\flag-de.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\flag-de.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\flag-fr.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\flag-fr.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\flag-gbp.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\flag-gbp.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\flag-idr.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\flag-idr.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\flag-inr.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\flag-inr.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\flag-sp.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\flag-sp.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\flag-try.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\flag-try.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\flag-us.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\flag-us.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\fr.png",
+      "PackagePath": "staticwebassets\\assets\\img\\fr.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\jp.png",
+      "PackagePath": "staticwebassets\\assets\\img\\jp.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\img\\mindset.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\mindset.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\app.js",
+      "PackagePath": "staticwebassets\\assets\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\apps\\contact.js",
+      "PackagePath": "staticwebassets\\assets\\js\\apps\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\apps\\custom-mailbox.js",
+      "PackagePath": "staticwebassets\\assets\\js\\apps\\custom-mailbox.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\apps\\invoice-add.js",
+      "PackagePath": "staticwebassets\\assets\\js\\apps\\invoice-add.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\apps\\invoice-edit.js",
+      "PackagePath": "staticwebassets\\assets\\js\\apps\\invoice-edit.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\apps\\invoice-list.js",
+      "PackagePath": "staticwebassets\\assets\\js\\apps\\invoice-list.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\apps\\invoice-preview.js",
+      "PackagePath": "staticwebassets\\assets\\js\\apps\\invoice-preview.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\apps\\mailbox-chat.js",
+      "PackagePath": "staticwebassets\\assets\\js\\apps\\mailbox-chat.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\apps\\notes.js",
+      "PackagePath": "staticwebassets\\assets\\js\\apps\\notes.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\apps\\scrumboard.js",
+      "PackagePath": "staticwebassets\\assets\\js\\apps\\scrumboard.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\apps\\todoList.js",
+      "PackagePath": "staticwebassets\\assets\\js\\apps\\todoList.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\authentication\\form-1.js",
+      "PackagePath": "staticwebassets\\assets\\js\\authentication\\form-1.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\authentication\\form-2.js",
+      "PackagePath": "staticwebassets\\assets\\js\\authentication\\form-2.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\clipboard\\clipboard.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\clipboard\\clipboard.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\components\\custom-carousel.js",
+      "PackagePath": "staticwebassets\\assets\\js\\components\\custom-carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\components\\custom-countdown.js",
+      "PackagePath": "staticwebassets\\assets\\js\\components\\custom-countdown.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\components\\custom-counter.js",
+      "PackagePath": "staticwebassets\\assets\\js\\components\\custom-counter.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\components\\notification\\custom-snackbar.js",
+      "PackagePath": "staticwebassets\\assets\\js\\components\\notification\\custom-snackbar.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\components\\session-timeout\\bootstrap-session-timeout.js",
+      "PackagePath": "staticwebassets\\assets\\js\\components\\session-timeout\\bootstrap-session-timeout.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\components\\session-timeout\\custom-bootstrap_session_timeout.js",
+      "PackagePath": "staticwebassets\\assets\\js\\components\\session-timeout\\custom-bootstrap_session_timeout.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\components\\ui-accordions.js",
+      "PackagePath": "staticwebassets\\assets\\js\\components\\ui-accordions.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\dashboard\\dash_1.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dashboard\\dash_1.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\dashboard\\dash_2.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dashboard\\dash_2.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\elements\\custom-search.js",
+      "PackagePath": "staticwebassets\\assets\\js\\elements\\custom-search.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\elements\\popovers.js",
+      "PackagePath": "staticwebassets\\assets\\js\\elements\\popovers.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\elements\\tooltip.js",
+      "PackagePath": "staticwebassets\\assets\\js\\elements\\tooltip.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\forms\\bootstrap_validation\\bs_validation_script.js",
+      "PackagePath": "staticwebassets\\assets\\js\\forms\\bootstrap_validation\\bs_validation_script.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\forms\\custom-clipboard.js",
+      "PackagePath": "staticwebassets\\assets\\js\\forms\\custom-clipboard.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\ie11fix\\fn.fix-padStart.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ie11fix\\fn.fix-padStart.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\libs\\jquery-3.1.1.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\libs\\jquery-3.1.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\libs\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\assets\\js\\libs\\jquery-ui.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\loader.js",
+      "PackagePath": "staticwebassets\\assets\\js\\loader.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\pages\\coming-soon\\coming-soon.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\coming-soon\\coming-soon.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\pages\\faq\\faq.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\faq\\faq.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\pages\\faq\\faq2.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\faq\\faq2.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\pages\\helpdesk.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\helpdesk.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\scrollspyNav.js",
+      "PackagePath": "staticwebassets\\assets\\js\\scrollspyNav.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\users\\account-settings.js",
+      "PackagePath": "staticwebassets\\assets\\js\\users\\account-settings.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\assets\\js\\widgets\\modules-widgets.js",
+      "PackagePath": "staticwebassets\\assets\\js\\widgets\\modules-widgets.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\bootstrap\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\avatardefault_92824.png",
+      "PackagePath": "staticwebassets\\img\\avatardefault_92824.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\3ds.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\3ds.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\aac.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\aac.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\ai.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\ai.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\avi.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\avi.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\bmp.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\bmp.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\cad.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\cad.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\cdr.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\cdr.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\css.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\css.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\dat.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\dat.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\default.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\default.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\dll.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\dll.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\dmg.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\dmg.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\doc.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\doc.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\docx.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\docx.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\eps.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\eps.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\fla.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\fla.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\flv.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\flv.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\gif.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\gif.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\html.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\html.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\indd.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\indd.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\iso.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\iso.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\jpg.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\jpg.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\js.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\js.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\midi.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\midi.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\mov.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\mov.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\mp3.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\mp3.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\mpg.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\mpg.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\pdf.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\pdf.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\php.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\php.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\png.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\png.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\ppt.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\ppt.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\ps.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\ps.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\psd.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\psd.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\raw.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\raw.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\sql.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\sql.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\svg.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\svg.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\tif.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\tif.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\txt.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\txt.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\wmv.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\wmv.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\xls.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\xls.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\xlsx.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\xlsx.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\xml.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\xml.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\contenttype\\png\\zip.png",
+      "PackagePath": "staticwebassets\\img\\contenttype\\png\\zip.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\img\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\fonticons\\camera-off.svg",
+      "PackagePath": "staticwebassets\\img\\fonticons\\camera-off.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\logos\\eFluo-all-withe.png",
+      "PackagePath": "staticwebassets\\img\\logos\\eFluo-all-withe.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\logos\\eFluo-font-dark.png",
+      "PackagePath": "staticwebassets\\img\\logos\\eFluo-font-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\logos\\eFluo-font.png",
+      "PackagePath": "staticwebassets\\img\\logos\\eFluo-font.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\logos\\eFluo-logo-white-font.png",
+      "PackagePath": "staticwebassets\\img\\logos\\eFluo-logo-white-font.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\logos\\eFluo-logo.jpg",
+      "PackagePath": "staticwebassets\\img\\logos\\eFluo-logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\logos\\eFluo-logo.png",
+      "PackagePath": "staticwebassets\\img\\logos\\eFluo-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\logos\\eFluo-logo2.jpg",
+      "PackagePath": "staticwebassets\\img\\logos\\eFluo-logo2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\logos\\eFluo-logo2.png",
+      "PackagePath": "staticwebassets\\img\\logos\\eFluo-logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\img\\project-generic.jpg",
+      "PackagePath": "staticwebassets\\img\\project-generic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\js\\list.js",
+      "PackagePath": "staticwebassets\\js\\list.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\js\\listTransfer.js",
+      "PackagePath": "staticwebassets\\js\\listTransfer.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\js\\qr.js",
+      "PackagePath": "staticwebassets\\js\\qr.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\js\\qrcode.js",
+      "PackagePath": "staticwebassets\\js\\qrcode.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\js\\qrcode.min.js",
+      "PackagePath": "staticwebassets\\js\\qrcode.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\plugins\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\apex\\apexcharts.css",
+      "PackagePath": "staticwebassets\\plugins\\apex\\apexcharts.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\apex\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\plugins\\apex\\apexcharts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\apex\\custom-apexcharts.js",
+      "PackagePath": "staticwebassets\\plugins\\apex\\custom-apexcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\autocomplete\\autocomplete.css",
+      "PackagePath": "staticwebassets\\plugins\\autocomplete\\autocomplete.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\autocomplete\\countries.js",
+      "PackagePath": "staticwebassets\\plugins\\autocomplete\\countries.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\autocomplete\\demo.js",
+      "PackagePath": "staticwebassets\\plugins\\autocomplete\\demo.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\autocomplete\\jquery.autocomplete.js",
+      "PackagePath": "staticwebassets\\plugins\\autocomplete\\jquery.autocomplete.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\autocomplete\\jquery.mockjax.js",
+      "PackagePath": "staticwebassets\\plugins\\autocomplete\\jquery.mockjax.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\blockui\\custom-blockui.js",
+      "PackagePath": "staticwebassets\\plugins\\blockui\\custom-blockui.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\blockui\\jquery.blockUI.min.js",
+      "PackagePath": "staticwebassets\\plugins\\blockui\\jquery.blockUI.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\bootstrap-maxlength\\bootstrap-maxlength.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap-maxlength\\bootstrap-maxlength.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\bootstrap-maxlength\\custom-bs-maxlength.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap-maxlength\\custom-bs-maxlength.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\bootstrap-multiselect\\bootstrap-multiselect.min.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap-multiselect\\bootstrap-multiselect.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\bootstrap-range-Slider\\bootstrap-rangeSlider.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap-range-Slider\\bootstrap-rangeSlider.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\bootstrap-range-Slider\\bootstrap-slider.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap-range-Slider\\bootstrap-slider.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\bootstrap-select\\bootstrap-select.min.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap-select\\bootstrap-select.min.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\bootstrap-select\\bootstrap-select.min.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap-select\\bootstrap-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\bootstrap-touchspin\\custom-bootstrap-touchspin.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap-touchspin\\custom-bootstrap-touchspin.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\bootstrap-touchspin\\jquery.bootstrap-touchspin.min.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap-touchspin\\jquery.bootstrap-touchspin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\bootstrap-touchspin\\jquery.bootstrap-touchspin.min.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap-touchspin\\jquery.bootstrap-touchspin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\countdown\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\plugins\\countdown\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\counter\\jquery.countTo.js",
+      "PackagePath": "staticwebassets\\plugins\\counter\\jquery.countTo.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\drag-and-drop\\dragula\\crossvent.js",
+      "PackagePath": "staticwebassets\\plugins\\drag-and-drop\\dragula\\crossvent.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\drag-and-drop\\dragula\\crossvent.min.js",
+      "PackagePath": "staticwebassets\\plugins\\drag-and-drop\\dragula\\crossvent.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\drag-and-drop\\dragula\\custom-dragula.js",
+      "PackagePath": "staticwebassets\\plugins\\drag-and-drop\\dragula\\custom-dragula.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\drag-and-drop\\dragula\\dragula.css",
+      "PackagePath": "staticwebassets\\plugins\\drag-and-drop\\dragula\\dragula.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\drag-and-drop\\dragula\\dragula.js",
+      "PackagePath": "staticwebassets\\plugins\\drag-and-drop\\dragula\\dragula.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\drag-and-drop\\dragula\\dragula.min.js",
+      "PackagePath": "staticwebassets\\plugins\\drag-and-drop\\dragula\\dragula.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\drag-and-drop\\dragula\\example.css",
+      "PackagePath": "staticwebassets\\plugins\\drag-and-drop\\dragula\\example.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\dropify\\dropify.min.css",
+      "PackagePath": "staticwebassets\\plugins\\dropify\\dropify.min.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\dropify\\dropify.min.js",
+      "PackagePath": "staticwebassets\\plugins\\dropify\\dropify.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\dropify\\fonts\\dropify.eot",
+      "PackagePath": "staticwebassets\\plugins\\dropify\\fonts\\dropify.eot"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\dropify\\fonts\\dropify.svg",
+      "PackagePath": "staticwebassets\\plugins\\dropify\\fonts\\dropify.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\dropify\\fonts\\dropify.ttf",
+      "PackagePath": "staticwebassets\\plugins\\dropify\\fonts\\dropify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\dropify\\fonts\\dropify.woff",
+      "PackagePath": "staticwebassets\\plugins\\dropify\\fonts\\dropify.woff"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\editors\\markdown\\custom-markdown.js",
+      "PackagePath": "staticwebassets\\plugins\\editors\\markdown\\custom-markdown.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\editors\\markdown\\simplemde.min.css",
+      "PackagePath": "staticwebassets\\plugins\\editors\\markdown\\simplemde.min.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\editors\\markdown\\simplemde.min.js",
+      "PackagePath": "staticwebassets\\plugins\\editors\\markdown\\simplemde.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\editors\\quill\\custom-quill.js",
+      "PackagePath": "staticwebassets\\plugins\\editors\\quill\\custom-quill.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\editors\\quill\\quill.bubble.css",
+      "PackagePath": "staticwebassets\\plugins\\editors\\quill\\quill.bubble.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\editors\\quill\\quill.js",
+      "PackagePath": "staticwebassets\\plugins\\editors\\quill\\quill.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\editors\\quill\\quill.snow.css",
+      "PackagePath": "staticwebassets\\plugins\\editors\\quill\\quill.snow.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\file-upload\\file-upload-with-preview.min.css",
+      "PackagePath": "staticwebassets\\plugins\\file-upload\\file-upload-with-preview.min.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\file-upload\\file-upload-with-preview.min.js",
+      "PackagePath": "staticwebassets\\plugins\\file-upload\\file-upload-with-preview.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\flatpickr\\custom-flatpickr.css",
+      "PackagePath": "staticwebassets\\plugins\\flatpickr\\custom-flatpickr.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\flatpickr\\custom-flatpickr.js",
+      "PackagePath": "staticwebassets\\plugins\\flatpickr\\custom-flatpickr.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\flatpickr\\flatpickr.css",
+      "PackagePath": "staticwebassets\\plugins\\flatpickr\\flatpickr.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\flatpickr\\flatpickr.js",
+      "PackagePath": "staticwebassets\\plugins\\flatpickr\\flatpickr.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\activity.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\activity.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\airplay.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\airplay.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\alert-circle.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\alert-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\alert-octagon.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\alert-octagon.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\alert-triangle.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\alert-triangle.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\align-center.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\align-center.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\align-justify.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\align-justify.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\align-left.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\align-left.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\align-right.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\align-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\anchor.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\anchor.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\aperture.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\aperture.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\archive.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\archive.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\arrow-down-circle.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\arrow-down-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\arrow-down-left.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\arrow-down-left.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\arrow-down-right.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\arrow-down-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\arrow-down.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\arrow-down.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\arrow-left-circle.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\arrow-left-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\arrow-left.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\arrow-left.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\arrow-right-circle.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\arrow-right-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\arrow-right.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\arrow-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\arrow-up-circle.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\arrow-up-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\arrow-up-left.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\arrow-up-left.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\arrow-up-right.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\arrow-up-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\arrow-up.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\arrow-up.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\at-sign.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\at-sign.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\award.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\award.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\bar-chart-2.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\bar-chart-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\bar-chart.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\bar-chart.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\battery-charging.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\battery-charging.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\battery.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\battery.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\bell-off.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\bell-off.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\bell.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\bell.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\bluetooth.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\bluetooth.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\bold.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\bold.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\book-open.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\book-open.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\book.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\book.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\bookmark.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\bookmark.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\box.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\box.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\briefcase.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\briefcase.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\calendar.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\calendar.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\camera-off.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\camera-off.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\camera.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\camera.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\cast.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\cast.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\check-circle.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\check-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\check-square.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\check-square.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\check.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\check.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\chevron-down.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\chevron-down.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\chevron-left.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\chevron-left.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\chevron-right.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\chevron-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\chevron-up.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\chevron-up.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\chevrons-down.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\chevrons-down.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\chevrons-left.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\chevrons-left.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\chevrons-right.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\chevrons-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\chevrons-up.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\chevrons-up.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\chrome.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\chrome.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\circle.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\clipboard.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\clipboard.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\clock.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\clock.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\cloud-drizzle.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\cloud-drizzle.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\cloud-lightning.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\cloud-lightning.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\cloud-off.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\cloud-off.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\cloud-rain.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\cloud-rain.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\cloud-snow.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\cloud-snow.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\cloud.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\cloud.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\code.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\code.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\codepen.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\codepen.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\codesandbox.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\codesandbox.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\coffee.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\coffee.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\columns.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\columns.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\command.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\command.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\compass.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\compass.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\copy.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\copy.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\corner-down-left.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\corner-down-left.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\corner-down-right.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\corner-down-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\corner-left-down.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\corner-left-down.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\corner-left-up.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\corner-left-up.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\corner-right-down.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\corner-right-down.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\corner-right-up.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\corner-right-up.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\corner-up-left.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\corner-up-left.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\corner-up-right.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\corner-up-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\cpu.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\cpu.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\credit-card.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\credit-card.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\crop.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\crop.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\crosshair.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\crosshair.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\database.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\database.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\delete.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\delete.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\disc.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\disc.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\dollar-sign.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\dollar-sign.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\download-cloud.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\download-cloud.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\download.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\download.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\droplet.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\droplet.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\edit-2.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\edit-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\edit-3.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\edit-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\edit.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\edit.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\external-link.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\external-link.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\eye-off.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\eye-off.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\eye.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\eye.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\facebook.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\fast-forward.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\fast-forward.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\feather.min.js",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\feather.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\feather.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\feather.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\figma.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\figma.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\file-minus.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\file-minus.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\file-plus.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\file-plus.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\file-text.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\file-text.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\file.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\file.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\film.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\film.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\filter.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\filter.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\flag.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\flag.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\folder-minus.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\folder-minus.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\folder-plus.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\folder-plus.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\folder.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\folder.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\framer.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\framer.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\frown.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\frown.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\gift.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\gift.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\git-branch.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\git-branch.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\git-commit.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\git-commit.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\git-merge.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\git-merge.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\git-pull-request.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\git-pull-request.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\github.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\github.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\gitlab.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\gitlab.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\globe.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\globe.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\grid.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\grid.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\hard-drive.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\hard-drive.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\hash.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\hash.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\headphones.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\headphones.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\heart.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\heart.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\help-circle.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\help-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\hexagon.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\hexagon.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\home.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\home.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\image.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\image.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\inbox.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\inbox.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\info.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\info.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\instagram.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\instagram.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\italic.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\key.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\key.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\layers.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\layers.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\layout.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\layout.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\life-buoy.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\life-buoy.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\link-2.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\link-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\link.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\link.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\linkedin.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\linkedin.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\list.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\list.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\loader.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\loader.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\lock.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\lock.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\log-in.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\log-in.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\log-out.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\log-out.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\mail.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\mail.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\map-pin.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\map-pin.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\map.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\map.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\maximize-2.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\maximize-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\maximize.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\maximize.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\meh.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\meh.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\menu.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\menu.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\message-circle.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\message-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\message-square.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\message-square.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\mic-off.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\mic-off.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\mic.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\mic.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\minimize-2.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\minimize-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\minimize.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\minimize.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\minus-circle.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\minus-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\minus-square.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\minus-square.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\minus.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\minus.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\monitor.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\monitor.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\moon.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\moon.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\more-horizontal.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\more-horizontal.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\more-vertical.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\more-vertical.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\mouse-pointer.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\mouse-pointer.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\move.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\move.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\music.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\music.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\navigation-2.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\navigation-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\navigation.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\navigation.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\octagon.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\octagon.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\package.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\package.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\paperclip.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\paperclip.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\pause-circle.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\pause-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\pause.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\pause.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\pen-tool.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\pen-tool.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\percent.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\percent.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\phone-call.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\phone-call.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\phone-forwarded.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\phone-forwarded.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\phone-incoming.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\phone-incoming.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\phone-missed.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\phone-missed.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\phone-off.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\phone-off.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\phone-outgoing.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\phone-outgoing.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\phone.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\phone.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\pie-chart.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\pie-chart.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\play-circle.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\play-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\play.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\play.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\plus-circle.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\plus-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\plus-square.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\plus-square.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\plus.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\plus.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\pocket.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\pocket.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\power.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\power.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\printer.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\printer.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\radio.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\radio.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\refresh-ccw.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\refresh-ccw.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\refresh-cw.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\refresh-cw.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\repeat.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\repeat.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\rewind.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\rewind.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\rotate-ccw.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\rotate-ccw.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\rotate-cw.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\rotate-cw.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\rss.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\rss.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\save.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\save.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\scissors.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\scissors.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\search.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\search.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\send.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\send.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\server.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\server.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\settings.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\settings.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\share-2.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\share-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\share.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\share.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\shield-off.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\shield-off.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\shield.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\shield.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\shopping-bag.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\shopping-bag.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\shopping-cart.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\shopping-cart.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\shuffle.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\shuffle.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\sidebar.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\sidebar.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\skip-back.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\skip-back.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\skip-forward.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\skip-forward.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\slack.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\slack.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\slash.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\slash.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\sliders.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\sliders.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\smartphone.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\smartphone.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\smile.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\smile.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\speaker.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\speaker.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\square.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\square.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\star.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\star.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\stop-circle.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\stop-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\sun.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\sun.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\sunrise.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\sunrise.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\sunset.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\sunset.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\tablet.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\tablet.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\tag.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\tag.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\target.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\target.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\terminal.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\terminal.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\thermometer.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\thermometer.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\thumbs-down.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\thumbs-down.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\thumbs-up.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\thumbs-up.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\toggle-left.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\toggle-left.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\toggle-right.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\toggle-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\tool.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\tool.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\trash-2.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\trash-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\trash.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\trash.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\trello.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\trello.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\trending-down.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\trending-down.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\trending-up.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\trending-up.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\triangle.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\triangle.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\truck.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\truck.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\tv.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\tv.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\twitch.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\twitch.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\twitter.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\twitter.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\type.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\type.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\umbrella.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\umbrella.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\underline.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\underline.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\unlock.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\unlock.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\upload-cloud.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\upload-cloud.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\upload.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\upload.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\user-check.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\user-check.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\user-minus.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\user-minus.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\user-plus.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\user-plus.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\user-x.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\user-x.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\user.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\user.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\users.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\users.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\video-off.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\video-off.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\video.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\video.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\voicemail.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\voicemail.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\volume-1.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\volume-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\volume-2.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\volume-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\volume-x.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\volume-x.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\volume.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\volume.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\watch.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\watch.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\wifi-off.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\wifi-off.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\wifi.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\wifi.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\wind.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\wind.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\x-circle.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\x-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\x-octagon.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\x-octagon.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\x-square.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\x-square.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\x.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\x.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\youtube.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\youtube.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\zap-off.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\zap-off.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\zap.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\zap.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\zoom-in.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\zoom-in.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\feather\\zoom-out.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\feather\\zoom-out.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\fontawesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\fontawesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\fontawesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\fontawesome\\css\\regular.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\fontawesome\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\fontawesome\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\fontawesome\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\fontawesome\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\fontawesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\fontawesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\fontawesome\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\fontawesome\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\font-icons\\fontawesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\plugins\\font-icons\\fontawesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\fullcalendar\\custom-fullcalendar.advance.css",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\custom-fullcalendar.advance.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\fullcalendar\\custom-fullcalendar.advance.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\custom-fullcalendar.advance.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\fullcalendar\\fullcalendar.css",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\fullcalendar.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\fullcalendar\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\fullcalendar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\fullcalendar\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\fullcalendar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\fullcalendar\\moment.min.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\highlight.pack.js",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\highlight.pack.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\a11y-dark.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\a11y-dark.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\a11y-light.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\a11y-light.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\agate.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\agate.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\an-old-hope.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\an-old-hope.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\androidstudio.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\androidstudio.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\arduino-light.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\arduino-light.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\arta.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\arta.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\ascetic.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\ascetic.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\atelier-cave-dark.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\atelier-cave-dark.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\atelier-cave-light.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\atelier-cave-light.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\atelier-dune-dark.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\atelier-dune-dark.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\atelier-dune-light.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\atelier-dune-light.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\atelier-estuary-dark.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\atelier-estuary-dark.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\atelier-estuary-light.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\atelier-estuary-light.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\atelier-forest-dark.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\atelier-forest-dark.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\atelier-forest-light.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\atelier-forest-light.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\atelier-heath-dark.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\atelier-heath-dark.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\atelier-heath-light.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\atelier-heath-light.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\atelier-lakeside-dark.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\atelier-lakeside-dark.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\atelier-lakeside-light.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\atelier-lakeside-light.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\atelier-plateau-dark.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\atelier-plateau-dark.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\atelier-plateau-light.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\atelier-plateau-light.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\atelier-savanna-dark.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\atelier-savanna-dark.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\atelier-savanna-light.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\atelier-savanna-light.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\atelier-seaside-dark.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\atelier-seaside-dark.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\atelier-seaside-light.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\atelier-seaside-light.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\atelier-sulphurpool-dark.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\atelier-sulphurpool-dark.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\atelier-sulphurpool-light.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\atelier-sulphurpool-light.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\atom-one-dark-reasonable.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\atom-one-dark-reasonable.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\atom-one-dark.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\atom-one-dark.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\atom-one-light.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\atom-one-light.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\brown-paper.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\brown-paper.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\brown-papersq.png",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\brown-papersq.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\codepen-embed.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\codepen-embed.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\color-brewer.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\color-brewer.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\darcula.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\darcula.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\dark.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\dark.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\darkula.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\darkula.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\default.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\default.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\docco.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\docco.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\dracula.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\dracula.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\far.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\far.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\foundation.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\foundation.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\github-gist.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\github-gist.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\github.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\github.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\gml.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\gml.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\googlecode.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\googlecode.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\grayscale.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\grayscale.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\gruvbox-dark.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\gruvbox-dark.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\gruvbox-light.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\gruvbox-light.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\hopscotch.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\hopscotch.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\hybrid.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\hybrid.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\idea.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\idea.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\ir-black.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\ir-black.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\isbl-editor-dark.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\isbl-editor-dark.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\isbl-editor-light.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\isbl-editor-light.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\kimbie.dark.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\kimbie.dark.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\kimbie.light.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\kimbie.light.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\lightfair.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\lightfair.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\magula.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\magula.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\mono-blue.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\mono-blue.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\monokai-sublime.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\monokai-sublime.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\monokai.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\monokai.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\nord.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\nord.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\obsidian.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\obsidian.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\ocean.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\ocean.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\paraiso-dark.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\paraiso-dark.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\paraiso-light.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\paraiso-light.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\pojoaque.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\pojoaque.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\pojoaque.jpg",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\pojoaque.jpg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\purebasic.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\purebasic.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\qtcreator_dark.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\qtcreator_dark.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\qtcreator_light.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\qtcreator_light.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\railscasts.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\railscasts.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\rainbow.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\rainbow.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\routeros.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\routeros.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\school-book.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\school-book.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\school-book.png",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\school-book.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\shades-of-purple.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\shades-of-purple.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\solarized-dark.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\solarized-dark.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\solarized-light.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\solarized-light.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\sunburst.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\sunburst.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\tomorrow-night-blue.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\tomorrow-night-blue.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\tomorrow-night-bright.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\tomorrow-night-bright.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\tomorrow-night-eighties.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\tomorrow-night-eighties.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\tomorrow-night.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\tomorrow-night.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\tomorrow.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\tomorrow.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\vs.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\vs.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\vs2015.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\vs2015.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\xcode.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\xcode.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\xt256.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\xt256.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\highlight\\styles\\zenburn.css",
+      "PackagePath": "staticwebassets\\plugins\\highlight\\styles\\zenburn.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\input-mask\\input-mask.js",
+      "PackagePath": "staticwebassets\\plugins\\input-mask\\input-mask.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\input-mask\\jquery.inputmask.bundle.min.js",
+      "PackagePath": "staticwebassets\\plugins\\input-mask\\jquery.inputmask.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\input-mask\\phone-codes\\phone-be.min.js",
+      "PackagePath": "staticwebassets\\plugins\\input-mask\\phone-codes\\phone-be.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\input-mask\\phone-codes\\phone-ca.min.js",
+      "PackagePath": "staticwebassets\\plugins\\input-mask\\phone-codes\\phone-ca.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\input-mask\\phone-codes\\phone-hu.min.js",
+      "PackagePath": "staticwebassets\\plugins\\input-mask\\phone-codes\\phone-hu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\input-mask\\phone-codes\\phone-it.min.js",
+      "PackagePath": "staticwebassets\\plugins\\input-mask\\phone-codes\\phone-it.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\input-mask\\phone-codes\\phone-mx.min.js",
+      "PackagePath": "staticwebassets\\plugins\\input-mask\\phone-codes\\phone-mx.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\input-mask\\phone-codes\\phone-nl.min.js",
+      "PackagePath": "staticwebassets\\plugins\\input-mask\\phone-codes\\phone-nl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\input-mask\\phone-codes\\phone-ru.min.js",
+      "PackagePath": "staticwebassets\\plugins\\input-mask\\phone-codes\\phone-ru.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\input-mask\\phone-codes\\phone.min.js",
+      "PackagePath": "staticwebassets\\plugins\\input-mask\\phone-codes\\phone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\jquery-step\\custom-jquery.steps.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery-step\\custom-jquery.steps.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\jquery-step\\jquery.steps.css",
+      "PackagePath": "staticwebassets\\plugins\\jquery-step\\jquery.steps.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\jquery-step\\jquery.steps.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery-step\\jquery.steps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\jquery-ui\\images\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\plugins\\jquery-ui\\images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\jquery-ui\\images\\ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets\\plugins\\jquery-ui\\images\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\jquery-ui\\images\\ui-icons_777620_256x240.png",
+      "PackagePath": "staticwebassets\\plugins\\jquery-ui\\images\\ui-icons_777620_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\jquery-ui\\images\\ui-icons_777777_256x240.png",
+      "PackagePath": "staticwebassets\\plugins\\jquery-ui\\images\\ui-icons_777777_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\jquery-ui\\images\\ui-icons_cc0000_256x240.png",
+      "PackagePath": "staticwebassets\\plugins\\jquery-ui\\images\\ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\jquery-ui\\images\\ui-icons_cccccc_256x240.png",
+      "PackagePath": "staticwebassets\\plugins\\jquery-ui\\images\\ui-icons_cccccc_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\jquery-ui\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\plugins\\jquery-ui\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\jquery-ui\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\plugins\\jquery-ui\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\jquery-ui\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery-ui\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\jvector\\africa\\jquery-jvectormap-africa-en.js",
+      "PackagePath": "staticwebassets\\plugins\\jvector\\africa\\jquery-jvectormap-africa-en.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\jvector\\asia\\jquery-jvectormap-asia-en.js",
+      "PackagePath": "staticwebassets\\plugins\\jvector\\asia\\jquery-jvectormap-asia-en.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\jvector\\continents\\jquery-jvectormap-continents-en.js",
+      "PackagePath": "staticwebassets\\plugins\\jvector\\continents\\jquery-jvectormap-continents-en.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\jvector\\europe\\jquery-jvectormap-europe-en.js",
+      "PackagePath": "staticwebassets\\plugins\\jvector\\europe\\jquery-jvectormap-europe-en.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\jvector\\jquery-jvectormap-2.0.3.css",
+      "PackagePath": "staticwebassets\\plugins\\jvector\\jquery-jvectormap-2.0.3.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\jvector\\jquery-jvectormap-2.0.3.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jvector\\jquery-jvectormap-2.0.3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\jvector\\jvector_script.js",
+      "PackagePath": "staticwebassets\\plugins\\jvector\\jvector_script.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\jvector\\north_america\\jquery-jvectormap-north-america-en.js",
+      "PackagePath": "staticwebassets\\plugins\\jvector\\north_america\\jquery-jvectormap-north-america-en.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\jvector\\oceania\\jquery-jvectormap-oceanina-en.js",
+      "PackagePath": "staticwebassets\\plugins\\jvector\\oceania\\jquery-jvectormap-oceanina-en.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\jvector\\south-america\\jquery-jvectormap-south-america-en.js",
+      "PackagePath": "staticwebassets\\plugins\\jvector\\south-america\\jquery-jvectormap-south-america-en.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\jvector\\worldmap_script\\jquery-jvectormap-world-mill-en.js",
+      "PackagePath": "staticwebassets\\plugins\\jvector\\worldmap_script\\jquery-jvectormap-world-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\lightbox\\custom-photswipe.css",
+      "PackagePath": "staticwebassets\\plugins\\lightbox\\custom-photswipe.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\lightbox\\custom-photswipe.js",
+      "PackagePath": "staticwebassets\\plugins\\lightbox\\custom-photswipe.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\lightbox\\default-skin\\default-skin.css",
+      "PackagePath": "staticwebassets\\plugins\\lightbox\\default-skin\\default-skin.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\lightbox\\default-skin\\default-skin.png",
+      "PackagePath": "staticwebassets\\plugins\\lightbox\\default-skin\\default-skin.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\lightbox\\default-skin\\default-skin.svg",
+      "PackagePath": "staticwebassets\\plugins\\lightbox\\default-skin\\default-skin.svg"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\lightbox\\default-skin\\preloader.gif",
+      "PackagePath": "staticwebassets\\plugins\\lightbox\\default-skin\\preloader.gif"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\lightbox\\photoswipe-ui-default.js",
+      "PackagePath": "staticwebassets\\plugins\\lightbox\\photoswipe-ui-default.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\lightbox\\photoswipe-ui-default.min.js",
+      "PackagePath": "staticwebassets\\plugins\\lightbox\\photoswipe-ui-default.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\lightbox\\photoswipe.css",
+      "PackagePath": "staticwebassets\\plugins\\lightbox\\photoswipe.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\lightbox\\photoswipe.js",
+      "PackagePath": "staticwebassets\\plugins\\lightbox\\photoswipe.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\lightbox\\photoswipe.min.js",
+      "PackagePath": "staticwebassets\\plugins\\lightbox\\photoswipe.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\loaders\\custom-loader.css",
+      "PackagePath": "staticwebassets\\plugins\\loaders\\custom-loader.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\noUiSlider\\custom-nouiSlider.css",
+      "PackagePath": "staticwebassets\\plugins\\noUiSlider\\custom-nouiSlider.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\noUiSlider\\custom-nouiSlider.js",
+      "PackagePath": "staticwebassets\\plugins\\noUiSlider\\custom-nouiSlider.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\noUiSlider\\nouislider.min.css",
+      "PackagePath": "staticwebassets\\plugins\\noUiSlider\\nouislider.min.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\noUiSlider\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\plugins\\noUiSlider\\nouislider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\notification\\snackbar\\snackbar.min.css",
+      "PackagePath": "staticwebassets\\plugins\\notification\\snackbar\\snackbar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\notification\\snackbar\\snackbar.min.js",
+      "PackagePath": "staticwebassets\\plugins\\notification\\snackbar\\snackbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\plugins\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\perfect-scrollbar\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\plugins\\perfect-scrollbar\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\pricing-table\\css\\component.css",
+      "PackagePath": "staticwebassets\\plugins\\pricing-table\\css\\component.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\select2\\custom-select2.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\custom-select2.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\select2\\select2-spinner.gif",
+      "PackagePath": "staticwebassets\\plugins\\select2\\select2-spinner.gif"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\plugins\\select2\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\select2\\select2.png",
+      "PackagePath": "staticwebassets\\plugins\\select2\\select2.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\select2\\select2x2.png",
+      "PackagePath": "staticwebassets\\plugins\\select2\\select2x2.png"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\sweetalerts\\custom-sweetalert.js",
+      "PackagePath": "staticwebassets\\plugins\\sweetalerts\\custom-sweetalert.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\sweetalerts\\promise-polyfill.js",
+      "PackagePath": "staticwebassets\\plugins\\sweetalerts\\promise-polyfill.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\sweetalerts\\sweetalert.css",
+      "PackagePath": "staticwebassets\\plugins\\sweetalerts\\sweetalert.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\sweetalerts\\sweetalert.js",
+      "PackagePath": "staticwebassets\\plugins\\sweetalerts\\sweetalert.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\sweetalerts\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\plugins\\sweetalerts\\sweetalert2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\sweetalerts\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\plugins\\sweetalerts\\sweetalert2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\table\\datatable\\button-ext\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\plugins\\table\\datatable\\button-ext\\buttons.html5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\table\\datatable\\button-ext\\buttons.print.min.js",
+      "PackagePath": "staticwebassets\\plugins\\table\\datatable\\button-ext\\buttons.print.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\table\\datatable\\button-ext\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\plugins\\table\\datatable\\button-ext\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\table\\datatable\\button-ext\\jszip.min.js",
+      "PackagePath": "staticwebassets\\plugins\\table\\datatable\\button-ext\\jszip.min.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\table\\datatable\\custom_dt_custom.css",
+      "PackagePath": "staticwebassets\\plugins\\table\\datatable\\custom_dt_custom.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\table\\datatable\\custom_dt_html5.css",
+      "PackagePath": "staticwebassets\\plugins\\table\\datatable\\custom_dt_html5.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\table\\datatable\\custom_dt_miscellaneous.css",
+      "PackagePath": "staticwebassets\\plugins\\table\\datatable\\custom_dt_miscellaneous.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\table\\datatable\\custom_dt_multiple_tables.css",
+      "PackagePath": "staticwebassets\\plugins\\table\\datatable\\custom_dt_multiple_tables.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\table\\datatable\\custom_miscellaneous.js",
+      "PackagePath": "staticwebassets\\plugins\\table\\datatable\\custom_miscellaneous.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\table\\datatable\\datatables.css",
+      "PackagePath": "staticwebassets\\plugins\\table\\datatable\\datatables.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\table\\datatable\\datatables.js",
+      "PackagePath": "staticwebassets\\plugins\\table\\datatable\\datatables.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\table\\datatable\\dt-custom-setting.js",
+      "PackagePath": "staticwebassets\\plugins\\table\\datatable\\dt-custom-setting.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\table\\datatable\\dt-global_style.css",
+      "PackagePath": "staticwebassets\\plugins\\table\\datatable\\dt-global_style.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\tagInput\\tags-input.css",
+      "PackagePath": "staticwebassets\\plugins\\tagInput\\tags-input.css"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\tagInput\\tags-input.js",
+      "PackagePath": "staticwebassets\\plugins\\tagInput\\tags-input.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\plugins\\treeview\\custom-jstree.js",
+      "PackagePath": "staticwebassets\\plugins\\treeview\\custom-jstree.js"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\_structure\\_media-query.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\_structure\\_media-query.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\_structure\\_navbar.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\_structure\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\_structure\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\_structure\\_sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\apps\\contacts.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\apps\\contacts.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\apps\\invoice-add.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\apps\\invoice-add.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\apps\\invoice-edit.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\apps\\invoice-edit.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\apps\\invoice-list.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\apps\\invoice-list.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\apps\\invoice-preview.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\apps\\invoice-preview.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\apps\\mailbox.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\apps\\mailbox.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\apps\\mailing-chat.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\apps\\mailing-chat.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\apps\\notes.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\apps\\notes.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\apps\\scrumboard.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\apps\\scrumboard.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\apps\\todolist.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\apps\\todolist.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\authentication\\form-1.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\authentication\\form-1.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\authentication\\form-2.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\authentication\\form-2.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\components\\cards\\_card\\_card-1.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\components\\cards\\_card\\_card-1.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\components\\cards\\_card\\_card-2.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\components\\cards\\_card\\_card-2.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\components\\cards\\_card\\_card-3.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\components\\cards\\_card\\_card-3.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\components\\cards\\_card\\_card-4.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\components\\cards\\_card\\_card-4.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\components\\cards\\_card\\_card-5.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\components\\cards\\_card\\_card-5.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\components\\cards\\_card\\_card-6.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\components\\cards\\_card\\_card-6.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\components\\cards\\_card\\_card-7.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\components\\cards\\_card\\_card-7.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\components\\cards\\_card\\_card-8.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\components\\cards\\_card\\_card-8.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\components\\cards\\_card\\_card-9.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\components\\cards\\_card\\_card-9.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\components\\cards\\_card\\_media-query.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\components\\cards\\_card\\_media-query.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\components\\cards\\card.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\components\\cards\\card.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\components\\custom-carousel.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\components\\custom-carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\components\\custom-countdown.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\components\\custom-countdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\components\\custom-counter.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\components\\custom-counter.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\components\\custom-list-group.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\components\\custom-list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\components\\custom-media_object.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\components\\custom-media_object.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\components\\custom-modal.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\components\\custom-modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\components\\custom-sweetalert.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\components\\custom-sweetalert.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\components\\tabs-accordian\\custom-accordions.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\components\\tabs-accordian\\custom-accordions.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\components\\tabs-accordian\\custom-tabs.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\components\\tabs-accordian\\custom-tabs.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\components\\timeline\\_timeline\\_timeline-alter.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\components\\timeline\\_timeline\\_timeline-alter.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\components\\timeline\\_timeline\\_timeline-basic.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\components\\timeline\\_timeline\\_timeline-basic.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\components\\timeline\\_timeline\\_timeline-modern.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\components\\timeline\\_timeline\\_timeline-modern.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\components\\timeline\\_timeline\\_timeline-profile.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\components\\timeline\\_timeline\\_timeline-profile.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\components\\timeline\\custom-timeline.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\components\\timeline\\custom-timeline.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\elements\\_infobox\\_infobox-1.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\elements\\_infobox\\_infobox-1.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\elements\\_infobox\\_infobox-2.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\elements\\_infobox\\_infobox-2.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\elements\\_infobox\\_infobox-3.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\elements\\_infobox\\_infobox-3.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\elements\\alert.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\elements\\alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\elements\\avatar.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\elements\\avatar.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\elements\\breadcrumb.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\elements\\breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\elements\\custom-pagination.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\elements\\custom-pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\elements\\custom-tree_view.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\elements\\custom-tree_view.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\elements\\infobox.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\elements\\infobox.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\elements\\miscellaneous.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\elements\\miscellaneous.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\elements\\popover.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\elements\\popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\elements\\search.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\elements\\search.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\elements\\tooltip.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\elements\\tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\forms\\bootstrap-form.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\forms\\bootstrap-form.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\forms\\custom-clipboard.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\forms\\custom-clipboard.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\forms\\switches.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\forms\\switches.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\forms\\theme-checkbox-radio.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\forms\\theme-checkbox-radio.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\loader.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\loader.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\main.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\main.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\pages\\coming-soon\\style.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\pages\\coming-soon\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\pages\\contact_us.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\pages\\contact_us.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\pages\\error\\style-400.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\pages\\error\\style-400.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\pages\\error\\style-500.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\pages\\error\\style-500.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\pages\\error\\style-503.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\pages\\error\\style-503.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\pages\\error\\style-maintanence.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\pages\\error\\style-maintanence.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\pages\\faq\\faq.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\pages\\faq\\faq.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\pages\\faq\\faq2.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\pages\\faq\\faq2.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\pages\\helpdesk.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\pages\\helpdesk.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\pages\\privacy\\privacy.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\pages\\privacy\\privacy.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\scrollspyNav.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\scrollspyNav.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\structure.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\structure.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\tables\\table-basic.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\tables\\table-basic.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\users\\account-setting.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\users\\account-setting.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\users\\user-profile.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\users\\user-profile.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-account-invoice-one.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-account-invoice-one.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-account-invoice-two.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-account-invoice-two.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-activity-four.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-activity-four.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-activity-one.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-activity-one.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-activity-three.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-activity-three.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-activity-two.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-activity-two.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-card-four.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-card-four.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-card-one.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-card-one.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-card-two.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-card-two.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-chart-one.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-chart-one.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-chart-three.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-chart-three.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-chart-two.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-chart-two.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-five.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-five.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-four.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-four.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-one.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-one.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-one_hybrid.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-one_hybrid.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-table-one.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-table-one.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-table-three.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-table-three.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-table-two.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-table-two.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-three.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-three.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-two.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\widgets\\_modules-widgets\\_modules-widget-two.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\widgets\\_modules-widgets\\_modules-widgets-media-query.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\widgets\\_modules-widgets\\_modules-widgets-media-query.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\assets\\widgets\\modules-widgets.scss",
+      "PackagePath": "staticwebassets\\sass\\assets\\widgets\\modules-widgets.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\base\\_base.scss",
+      "PackagePath": "staticwebassets\\sass\\base\\_base.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\base\\_color_variables.scss",
+      "PackagePath": "staticwebassets\\sass\\base\\_color_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\base\\_functions.scss",
+      "PackagePath": "staticwebassets\\sass\\base\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\base\\_mixins.scss",
+      "PackagePath": "staticwebassets\\sass\\base\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\base\\_utilities.scss",
+      "PackagePath": "staticwebassets\\sass\\base\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\animate\\animate.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\animate\\animate.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\autocomplete\\autocomplete.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\autocomplete\\autocomplete.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\bootstrap-range-Slider\\bootstrap-slider.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\bootstrap-range-Slider\\bootstrap-slider.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\bootstrap-select\\bootstrap-select.min.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\bootstrap-select\\bootstrap-select.min.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\bootstrap-touchspin\\jquery.bootstrap-touchspin.min.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\bootstrap-touchspin\\jquery.bootstrap-touchspin.min.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\drag-and-drop\\dragula\\dragula.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\drag-and-drop\\dragula\\dragula.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\drag-and-drop\\dragula\\example.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\drag-and-drop\\dragula\\example.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\dropify\\dropify.min.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\dropify\\dropify.min.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\editors\\markdown\\simplemde.min.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\editors\\markdown\\simplemde.min.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\editors\\quill\\quill.bubble.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\editors\\quill\\quill.bubble.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\editors\\quill\\quill.snow.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\editors\\quill\\quill.snow.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\file-upload\\file-upload-with-preview.min.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\file-upload\\file-upload-with-preview.min.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\flatpickr\\custom-flatpickr.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\flatpickr\\custom-flatpickr.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\fullcalendar\\custom-fullcalendar.advance.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\fullcalendar\\custom-fullcalendar.advance.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\fullcalendar\\fullcalendar.min.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\fullcalendar\\fullcalendar.min.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\fullcalendar\\fullcalendar.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\fullcalendar\\fullcalendar.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\jquery-step\\jquery.steps.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\jquery-step\\jquery.steps.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\jvector\\jquery-jvectormap-2.0.3.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\jvector\\jquery-jvectormap-2.0.3.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\lightbox\\custom-photswipe.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\lightbox\\custom-photswipe.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\lightbox\\photoswipe.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\lightbox\\photoswipe.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\loaders\\custom-loader.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\loaders\\custom-loader.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\noUiSlider\\custom-nouiSlider.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\noUiSlider\\custom-nouiSlider.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\perfect-scrollbar\\perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\perfect-scrollbar\\perfect-scrollbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\pricing-table\\css\\_pricing-table\\_pricing-table-animated.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\pricing-table\\css\\_pricing-table\\_pricing-table-animated.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\pricing-table\\css\\_pricing-table\\_pricing-table-basic.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\pricing-table\\css\\_pricing-table\\_pricing-table-basic.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\pricing-table\\css\\_pricing-table\\_pricing-table-toggle.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\pricing-table\\css\\_pricing-table\\_pricing-table-toggle.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\pricing-table\\css\\component.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\pricing-table\\css\\component.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\select2\\select2.min.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\select2\\select2.min.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\sweetalerts\\sweetalert.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\sweetalerts\\sweetalert.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\sweetalerts\\sweetalert2.min.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\sweetalerts\\sweetalert2.min.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\table\\datatable\\custom_dt_custom.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\table\\datatable\\custom_dt_custom.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\table\\datatable\\custom_dt_html5.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\table\\datatable\\custom_dt_html5.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\table\\datatable\\custom_dt_miscellaneous.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\table\\datatable\\custom_dt_miscellaneous.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\table\\datatable\\custom_dt_multiple_tables.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\table\\datatable\\custom_dt_multiple_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\table\\datatable\\datatables.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\table\\datatable\\datatables.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\table\\datatable\\dt-global_style.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\table\\datatable\\dt-global_style.scss"
+    },
+    {
+      "Id": "C:\\Users\\barnu\\source\\repos\\eFluo\\eFluo\\wwwroot\\sass\\plugins\\tagInput\\tags-input.scss",
+      "PackagePath": "staticwebassets\\sass\\plugins\\tagInput\\tags-input.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.eFluo.props",
+      "PackagePath": "build\\eFluo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.eFluo.props",
+      "PackagePath": "buildMultiTargeting\\eFluo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.eFluo.props",
+      "PackagePath": "buildTransitive\\eFluo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.eFluo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
