@@ -52,7 +52,7 @@ builder.Services.AddControllersWithViews();
 var app = builder.Build();
 
 //Adds the preloaded data 
-//await DataUtility.ManageDataAsync(app);
+await DataUtility.ManageDataAsync(app);
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
