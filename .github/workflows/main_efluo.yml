@@ -39,7 +39,7 @@ jobs:
 
       # Adding EF CI/CD to actions job
       - name: Install EntityFrameworkCore Tools
-        run: dotnet tool install dotnet-ef --global dotnet-ef --version 8.0.3
+        run: dotnet tool install --global dotnet-ef --version 8.0.3
             
             
       
