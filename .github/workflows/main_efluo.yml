@@ -42,8 +42,8 @@ jobs:
         run: dotnet tool install --global dotnet-ef --version 8.0.3
       
       - name: Generate EF Core Migration Script
-        run: dotnet-ef migrations script --idempotent --output ${{env.DOTNET_ROOT}}/sql/sql-script.sql --context eFluo.Data.ApplicationDbContext --project ${{ github.workspace }}/eFluo/eFluo.csproj
-  
+        run: |
+          dotnet-ef migrations script --idempotent --output ${{env.DOTNET_ROOT}}/sql/sql-script.sql --context eFluo.Data.ApplicationDbContext --project ${{ github.workspace }}/eFluo/eFluo.csproj
 
       - uses: actions/upload-artifact@v3
         with:
