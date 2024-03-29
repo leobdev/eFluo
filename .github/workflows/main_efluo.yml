@@ -14,13 +14,16 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v2
 
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: '8.x'
           include-prerelease: true
+
+      - name: Restore Dependencies
+        run: dotnet restore
 
       - name: Build with dotnet
         run: dotnet build --configuration Release
@@ -29,11 +32,23 @@ jobs:
         run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
       - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2
         with:
           name: .net-app
           path: ${{env.DOTNET_ROOT}}/myapp
 
+      # Adding EF CI/CD to actions job
+      - name: Install EntityFrameworkCore Tools
+        run: dotnet tool install --global dotnet-ef --version 8.0.3
+          
+      - name: Generate EF Core Migration Script
+        run: dotnet tool install --global dotnet-ef --version 8.0.3 $dotnetEfPath = "$(dotnet tool run dotnet-ef --list-sdks | grep 8.0.3)" dotnet-ef migrations script --idempotent --no-build --configuration Release --output ${{env.DOTNET_ROOT}}/sql/sql-script --context eFluo.Data.ApplicationDbContext --project ${{ github.workspace }}/eFluo/eFluo.csproj
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: ddl-updates
+          path: ${{env.DOTNET_ROOT}}/sql/sql-script.sql
+      
   deploy:
     runs-on: windows-latest
     needs: build
@@ -44,9 +59,7 @@ jobs:
     steps:
       - name: Download artifact from build job
         uses: actions/download-artifact@v3
-        with:
-          name: .net-app
-
+        
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
@@ -54,4 +67,12 @@ jobs:
           app-name: 'efluo'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_49612BE29E374957964199347A55E9D8 }}
-          package: .
+          package: ./.net-app/
+
+      - name: Azure SQL Deploy
+        uses: Azure/sql-action@v2
+        with:
+          # the connection string, including authentication  information, fior the Azure SQL Server database.
+          connection-string: ${{ secrets.SQL_CONNECTION_STRING }}
+          # path to the file used for this action. Supported file types are .sql, .dacpac, or .sqlproj.
+          path: D:\a\eFluo\eFluo\ddl-updates\sql-script.sql
