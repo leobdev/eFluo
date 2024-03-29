@@ -14,7 +14,7 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v2
 
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v1
@@ -39,12 +39,14 @@ jobs:
 
       # Adding EF CI/CD to actions job
       - name: Install EntityFrameworkCore Tools
-        run: dotnet tool install --global dotnet-ef --version 8.0.3
+        run: 
+            dotnet new tool-manifest
+            dotnet tool install dotnet-ef
             
             
       
       - name: Generate EF Core Migration Script
-        run: dotnet ef migrations script --idempotent --no-build --configuration Release --output ${{env.DOTNET_ROOT}}/sql/sql-script --context eFluo.Data.ApplicationDbContext --project ${{ github.workspace }}/eFluo.csproj
+        run: dotnet ef migrations script --idempotent --no-build --configuration Release --output ${{env.DOTNET_ROOT}}/sql/sql-script.sql --context eFluo.Data.ApplicationDbContext --project ${{ github.workspace }}/eFluo/eFluo.csproj
 
       - uses: actions/upload-artifact@v3
         with:
