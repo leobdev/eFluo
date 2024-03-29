@@ -43,7 +43,7 @@ jobs:
       
       - name: Generate EF Core Migration Script
         run: |
-          dotnet-ef migrations script --idempotent --output ${{env.DOTNET_ROOT}}/sql/sql-script.sql --context eFluo.Data.ApplicationDbContext --project ${{ github.workspace }}/eFluo/eFluo.csproj
+          dotnet-ef migrations script --idempotent --output ${{env.DOTNET_ROOT}}/sql/sql-script.sql --context eFluo.Data.ApplicationDbContext --project ${{ github.workspace }}/eFluo.csproj
 
       - uses: actions/upload-artifact@v3
         with:
