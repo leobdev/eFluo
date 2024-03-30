@@ -11,7 +11,7 @@ using eFluo.Services.Factories;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+var connectionString = builder.Configuration.GetConnectionString("ConnectionStrings:sqlServerConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 var mailSettings = builder.Configuration.GetSection("MailSettings") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContextConnection' not found.");
 
 
@@ -19,8 +19,7 @@ var mailSettings = builder.Configuration.GetSection("MailSettings") ?? throw new
     options.UseSqlServer(DataUtility.GetConnectionString(builder.Configuration), o => o.UseQuerySplittingBehavior(QuerySplittingBehavior.SplitQuery)));
 */
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connectionString));
-
+options.UseSqlServer(connectionString, o => o.UseQuerySplittingBehavior(QuerySplittingBehavior.SplitQuery)));
 
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
