@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdy1yrw+UGEqJS+9QllXnbAAAAAACAAAAAAAQZgAAAAEAACAAAACw8lNvfC0pqv5ZuQCTimJTwEdEyjymmAIfDDI7dWr/sQAAAAAOgAAAAAIAACAAAADq8U2ZyHuV4tNOU1uPx+f4GwmFzhcclHl1UqwLZrjSioAAAAB8S258kLNFo9z/n1m3D3CRKpCg9bZ3jd4Y532rqeGZvB9++wVZ6qyz8X2qAqIAPaVs43/EwfLXWi0xovYF6gNvAubED0pbqDWQFQwXcKbZu7ln+sILJOdr4bYrX9IMe1NvEp+U8FrSEMOm6q6rcY7CrVY98oN2Q6XmPg2LkTq6VEAAAABPFUjjLp+Szl+jjW//hhv5ur0de+x3Mc0YdTCCrL0EJjMAOxvStrVCwqWY0iDpA2gYOCIEVypZIK1EqfJpC5Sj</EncryptedPassword>
+    <History>True|2024-03-30T16:09:02.7948104Z;True|2024-03-30T10:55:52.7104953-05:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=leobdbserver.database.windows.net,1433%3bInitial Catalog=probsolvdb%3bUser ID=CloudSAf07e8653%3bPassword=Matthias19%24</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="eFluo.Data.ApplicationDbContext">
+      <Value>Data Source=leobdbserver.database.windows.net,1433%3bInitial Catalog=probsolvdb%3bUser ID=CloudSAf07e8653%3bPassword=Matthias19%24</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
