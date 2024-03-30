@@ -147,3 +147,4 @@ C:\Users\barnu\source\repos\eFluo\eFluo\obj\Debug\net8.0\refint\eFluo.dll
 C:\Users\barnu\source\repos\eFluo\eFluo\obj\Debug\net8.0\eFluo.pdb
 C:\Users\barnu\source\repos\eFluo\eFluo\obj\Debug\net8.0\eFluo.genruntimeconfig.cache
 C:\Users\barnu\source\repos\eFluo\eFluo\obj\Debug\net8.0\ref\eFluo.dll
+C:\Users\barnu\source\repos\eFluo\eFluo\obj\Debug\net8.0\eFluo.sourcelink.json
