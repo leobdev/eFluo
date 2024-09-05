@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("eFluo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2be03d0f6e3f44309d02e8782de5637411a17a55")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3df28dbba328bc02193ac693a2f1be4b42eaf8d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("eFluo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("eFluo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
